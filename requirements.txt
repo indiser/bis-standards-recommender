@@ -1,0 +1,8 @@
+pymupdf4llm
+sentence-transformers
+faiss_cpu
+chromadb
+numpy
+scikit-learn
+python-dotenv
+groq
