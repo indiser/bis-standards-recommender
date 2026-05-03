@@ -8,7 +8,7 @@ If you just want to get up and running quickly:
 
 ```bash
 # 1. Navigate to project
-cd BIS
+cd bis-standards-recommender
 
 # 2. Create and activate virtual environment
 python -m venv env
@@ -105,7 +105,7 @@ Before starting, ensure you have:
 ### Step 1: Navigate to Project Directory
 
 ```bash
-cd BIS
+cd bis-standards-recommender
 ```
 
 This command moves you into the project folder where all the code and configuration files are located.
