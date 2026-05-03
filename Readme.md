@@ -263,7 +263,7 @@ Create a `.env` file in the root project directory to store your Groq API key. T
 
 **Example API key format:**
 ```
-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
+gsk_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 #### 6.2: Create the .env File
@@ -279,7 +279,7 @@ echo GROQ_API_KEY=your_api_key_here > .env
 
 Replace `your_api_key_here` with your actual API key:
 ```bash
-echo GROQ_API_KEY=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 > .env
+echo GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx > .env
 ```
 
 **On Windows (PowerShell):**
@@ -289,7 +289,7 @@ echo GROQ_API_KEY=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 > .en
 
 Replace `your_api_key_here` with your actual API key:
 ```bash
-"GROQ_API_KEY=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" | Out-File -Encoding UTF8 .env
+"GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" | Out-File -Encoding UTF8 .env
 ```
 
 **On macOS/Linux:**
@@ -299,7 +299,7 @@ echo "GROQ_API_KEY=your_api_key_here" > .env
 
 Replace `your_api_key_here` with your actual API key:
 ```bash
-echo "GROQ_API_KEY=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" > .env
+echo "GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" > .env
 ```
 
 **Option B: Manual File Creation**
@@ -311,7 +311,7 @@ echo "GROQ_API_KEY=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" > .
 
 2. **Type the following (replace with your actual key):**
    ```
-   GROQ_API_KEY=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
+   GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
    ```
 
 3. **Save the file:**
@@ -321,7 +321,7 @@ echo "GROQ_API_KEY=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" > .
 
 **Example `.env` file content:**
 ```
-GROQ_API_KEY=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
+GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 #### 6.3: Verify Your API Key is Configured
@@ -345,7 +345,7 @@ cat .env
 
 **Expected output:**
 ```
-GROQ_API_KEY=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
+GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 If you see your API key displayed, the `.env` file is **correctly configured** ✓
